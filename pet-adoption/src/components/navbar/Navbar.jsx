@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <nav className={`navbar ${isOpen ? "open" : ""}`}>
-      <img src={Logo} alt="Paw Logo" width={30} height={30} />
+      <img src={Logo} alt="Paw Logo" width={50} height={50} />
       <div className="menu-icon" onClick={handleClick}>
         {isOpen ? <FaTimes /> : <FaBars />}
       </div>
